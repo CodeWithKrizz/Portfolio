@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home: Welcome</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+
+    <!-- Navigation start -->
+    <header>
+    <img class="logo" src="logo_nav.png" alt="logo">
+        <nav>
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#flip_section">About</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Services</a></li>
+            </ul>
+        </nav>
+        <button type="button" class="contact_btn"><a href="#contact">Let's talk!</a></button>
+    </header>
+    <!-- Navigation end -->
+   
+    <!-- Hero section start -->
+    <main class="container">
+        <h1 class="vertical_text"><span>W</span>elcome Stranger</h1>
+        <div class="box">
+            <div class="card">
+                <div class="socials">
+                    <ul>
+                        <li><a href="https://www.facebook.com/kritsana.phaithong"><i class='bx bxl-facebook-circle'></i></a></li>
+                        <li><a href="https://github.com/CodeWithKrizz"><i class='bx bxl-github'></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/kritsana-phaithong-19a02316a/"><i class='bx bxl-linkedin-square'></i></a></li>
+                    </ul>
+                </div>
+                <div class="pfp__box">
+                    <div class="pfp__card">
+                        <img src="Logo.jpg" alt="logo">
+                    </div>
+                </div>
+                <h1>Kritsana Phaithong</h1>
+                <h4>Front End Developer</h4>
+                <p>Specialized in UI & UX</p>
+            </div>
+            <a href="https://c.tenor.com/Q42PQl0mmSsAAAAd/cute-adorable.gif"><button type="button" class="btn">See more!</button></a>
+        </div>
+    </main>
+
+    <!-- Card flipping section 1 -->
+    <div id="flip_section">
+        <div class="card_container">
+            <div class="flip_container">
+                <div class="the_card">
+                    <div class="card_front">
+                        <div class="back_circle"></div>
+                        <div class="back_box"></div>
+                        <h1>This is my story</h1>
+                        <h4>Zero to hero</h4>
+                        <div class="front_p">
+                            <p>
+                                Hello world!
+                                <br>
+                                I'm a freelancing Front End developer.
+                                <br>
+                                I specialize in everything web design and will create your desired website from scratch! <br> <br>
+                                I'm also a university student in web design and front end development. 
+                                <br><br>
+                                My main languages are:
+                            </p>
+                            <div>
+                                <span class="icon_html"><i class='bx bxl-html5'></i></span>
+                                <span class="icon_css"><i class='bx bxl-css3'></i></span>
+                                <span class="icon_js"><i class='bx bxl-javascript'></i></span>
+                            </div>
+                                <p>HTML CSS JavaScript</p>
+                        </div>
+                        <h5>Hover me! </h5>
+                        
+                    </div>
+                    <div class="card_back">
+                        <div class="back_circle"></div>
+                        <div class="back_box"></div>
+                        <h1>My vision</h1>
+                        <h4>Vision to reality</h4>
+                        <div class="back_p">
+                            <p></p>
+                        </div>
+                        <h5>Weee!</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+        <!-- Contact container start -->
+        <div id="contact" class="contact_container">
+            <div class="contact_box">
+                <div class="contact_card">
+                    <div class="socials">
+                        <ul>
+                            <li><a href="https://www.facebook.com/kritsana.phaithong"><i class='bx bxl-facebook-circle'></i></a></li>
+                            <li><a href="https://github.com/CodeWithKrizz"><i class='bx bxl-github'></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/kritsana-phaithong-19a02316a/"><i class='bx bxl-linkedin-square'></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="pfp__box_ct">
+                        <div class="pfp__card_ct">
+                            <img src="Logo.jpg" alt="logo">
+                        </div>
+                    </div>
+    
+                    <!-- CONTACT FORM START-->
+                <div id="form_container">
+                    <div class="glass">
+                        <form action="" method="">
+                            <div class="radio">
+                                <h2><span>C</span>hoose your inquiry</h2><br>
+                            <input type="radio" id="webdesign" value="webdesign" name="inquiry">
+                            <label for="webdesign">Web design</label><br>
+                            <input type="radio" name="inquiry" id="frontend" value="frontend">
+                            <label for="frontend">Front End</label><br>
+                            <input type="radio" id="ux_ui" name="inquiry" value="ux_ui">
+                            <label for="ux_ui">UX/UI</label><br>
+                            <input type="radio" id="other" name="inquiry" value="other">
+                            <label for="other">Other</label>
+                        </div>
+                        <div class="name">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="email">
+                            <label for="email">Email:</label>
+                            <input type="text" id="email" name="email" required>
+                        </div>
+                        <div class="textarea">
+                            <h5>Special request</h5>
+                            <textarea name="request" id="request" cols="11" rows="5"></textarea>
+                        </div>
+                        <input class="submit" type="submit" value="submit">
+                    </form>
+                </div>
+                </div>
+                <!-- CONTACT FORM END -->
+                
+                    <div id="abstrac">
+                        <div class="circle"></div>
+                        <div class="cube"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+</body>
+</html>

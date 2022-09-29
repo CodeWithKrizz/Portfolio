@@ -51,17 +51,11 @@ header{
     color: #45f3ff;
 }
 
-.contact_btn a{
-    color: #161a1b;
-}
-.contact_btn a:hover{
-    color: #f2f0ed;
-}
 .contact_btn{
+    color: #161a1b;
     background: rgb(120 221 255);
     border: 1px solid #0096a1;
     border-radius: 0px 13px;
-    cursor: pointer;
     margin-left: 22px;
     padding: 10px 20px;
 }
@@ -90,7 +84,6 @@ span{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
- 
 }
 
 .box{
@@ -212,27 +205,23 @@ h1, h4, p{
     padding-top: 5px;
 }
 
-.btn{
-    display: flex;
-    cursor: pointer;
+.box .btn{
     position: relative;
-    margin: auto;
-    z-index: 4;
+    color: #1c1c1c;
     padding: 8px 10px;
-    top: 80%;
+    top: 87%;
+    left: 39%;
     background-color: rgb(120 221 255);
     border: 1px solid #0096a1;
     border-radius: 0px 13px;
-    color: #1c1c1c;
+    z-index: 3;
 }
 
 .btn:hover{
-    transform: scale(102%);
+    padding: 9px 11px;
     transition: ease-in-out .2s;
     color: white;
-    
 }
-
 .socials{
     background: none;
     position: absolute;
@@ -253,7 +242,6 @@ h1, h4, p{
 }
 
 
-
 /* FLIPPING CARD */
 #flip_section{
     background: #131518;
@@ -272,8 +260,6 @@ h1, h4, p{
     width: 600px;
     height: 420px;
     overflow: hidden;
- 
-   
 }
 
 .the_card{
@@ -283,7 +269,6 @@ h1, h4, p{
     transform-style: preserve-3d;
     transition: ease-in .7s;
     border-radius: 12px;
- 
 }
 .card_front{
     position: absolute;
@@ -294,7 +279,6 @@ h1, h4, p{
     border: 1px solid rgb(120 221 255);
     color: #f2f0ed;
     border-radius: 12px;
-    
 }
 
 .card_front h4{

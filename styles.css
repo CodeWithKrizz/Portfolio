@@ -360,6 +360,7 @@ h1, h4, p{
 }
 .the_card:hover{
     transform: rotateY(180deg);
+    
 }
 .back_circle{
     position: absolute;
